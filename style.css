@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --y: red;
+    --b: black;
+    --r: white;
+    --a: rgb(25, 202, 233);
+}
+
+body{
+    background-color: var(--b);
+}
+
+.corpo{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    background-color: var(--y);
+    border-radius: 44% 44% 2% 0%;
+}
+
+.olho-esq{
+    width: 117px;
+    height: 121px;
+    position: absolute;
+    background-color: var(--r);
+    top: 158px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.cor-olho-esq{
+    width: 63px;
+    height: 65px;
+    position: absolute;
+    background-color: var(--a);
+    top: 168px;
+    left: 109px;
+    border-radius: 50%;
+}
+
+.olho-dir{
+    width: 117px;
+    height: 121px;
+    position: absolute;
+    background-color: var(--r);
+    top: 158px;
+    left: 291px;
+    border-radius: 50%;
+}
+
+.cor-olho-dir{
+    width: 63px;
+    height: 65px;
+    position: absolute;
+    background-color: var(--a);
+    top: 171px;
+    left: 298px;
+    border-radius: 50%;
+}
+
+.perninha{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid var(--b);
+    top: 435px;
+    left: 321px;
+  }
+
+  .perninha1{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid var(--b);
+    top: 435px;
+    left: 169px;
+  }
+
+  .perninha2{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid var(--b);
+    top: 435px;
+    left: 1px;
+  }
+
+  .perninha3{
+    width: 502px;
+    height: 138px;
+    position: absolute;
+    background-color: var(--b);
+    top: 523px;
+    left: 7px;
+  }
